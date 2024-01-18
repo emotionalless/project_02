@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Yeseva One;
+    src: url(fonts/YesevaOne-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+   @font-face {
+    font-family: Nunito Sans;
+    src: url(fonts/NunitoSans_10pt-Light.ttf); /* Путь к файлу со шрифтом */
+   }

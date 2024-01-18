@@ -1,0 +1,361 @@
+body {
+    margin: 0;
+    background-color: #131313;
+}
+
+/* div {
+    box-sizing: border-box;
+} */
+
+.main {
+    position: relative;
+    width: 1171px;
+    height: 552.276px;
+    flex-shrink: 0;
+    top: 107px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 124px;
+}
+
+.main_slider-img {
+    position: absolute;
+    width: 679px;
+    height: 482.38px;
+    top: 69.4px;
+    left: 492px;
+    flex-shrink: 0;
+}
+
+.main_slider-link-nav {
+    position: absolute;
+    width: 623px;
+    height: 24px;
+    flex-shrink: 0;
+    left: 492px;
+    right: 56;
+    bottom: 528px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none; 
+}
+
+.main_project-info {
+    position: absolute;
+    width: 442px;
+    height: 390px;
+    flex-shrink: 0;
+    top: 69.4px;
+    right: 729px;
+    bottom: 92.9px;
+}
+
+.slider-img_border {
+    width: 679px;
+    height: 482.381px;
+    flex-shrink: 0;
+    background: #C4C4C4;
+}
+
+.slider-img_img {
+    position: absolute;
+    width: 679px;
+    height: 482px;
+    flex-shrink: 0;
+    background: url(img/slider_two\ chairs.jpg), lightgray 50% / cover no-repeat;
+    bottom: 0.74px;
+}
+
+.slider-link-nav_rectangle {
+    width: 193.936px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #E3B873;
+    top: 23px;
+    right: 429px;
+    position: absolute;
+}
+
+.main_slider-link-nav span {
+    margin-left: 56px;
+    font-family: Yeseva One;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; 
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.3;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none; 
+}
+
+.main_slider-link-nav span:first-of-type {
+    margin-left: 0;
+}
+
+#slider-link-nav_name {
+    color: #E3B873;
+    opacity: 1;
+    cursor: pointer;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none; 
+}
+
+.slider-link-nav_name {
+    color: #E3B873;
+    opacity: 1;
+}
+
+.project-info_rectangle {
+    position: absolute;
+    width: 92px;
+    height: 2px;
+    flex-shrink: 0;
+    left: 161px;
+    right: 189px;
+    top: 52px;
+    bottom: 337px;
+    background: #E3B873;
+}
+
+.project-info_info {
+    position: absolute;
+    width: 442px;
+    height: 390px;
+    flex-shrink: 0;
+}
+
+.project-info_info_block-of-info {
+    position: absolute;
+    width: 442px;
+    height: 290px;
+    flex-shrink: 0;
+    top: 100px;
+}
+
+.project-info_info_name-block {
+    position: absolute;
+    width: 253px;
+    height: 66px;
+    flex-shrink: 0;
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; /* 37.422px */
+    letter-spacing: -1.89px;
+    text-transform: uppercase;
+}
+
+.block-of-info_city {
+    position: absolute;
+    width: 66px;
+    height: 22px;
+    flex-shrink: 0;
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; /* 24.948px */
+    text-transform: uppercase;
+    top: 128px;
+}
+
+.block-of-info_city-name {
+    position: absolute;
+    width: 161px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163.68%; /* 21.278px */
+    top: 159px;
+}
+
+.block-of-info_description {
+    position: absolute;
+    width: 442px;
+    height: 86px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 13.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190.96%; /* 26.734px */
+}
+
+.block-of-info_apartment-area-value {
+    position: absolute;
+    width: 51px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163.68%; /* 21.278px */
+    top: 159px;
+    left: 190px;
+}
+
+.block-of-info_apartment-area {
+    position: absolute;
+    width: 213px;
+    height: 22px;
+    flex-shrink: 0;
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; /* 24.948px */
+    text-transform: uppercase;
+    top: 128px;
+    left: 190px;
+}
+
+.block-of-info_repair-time {
+    position: absolute;
+    width: 156px;
+    height: 22px;
+    flex-shrink: 0;
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; /* 24.948px */
+    text-transform: uppercase;
+    top: 235px;
+}
+
+.block-of-info_repair-time-value {
+    position: absolute;
+    width: 103px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163.68%; /* 21.278px */
+    top: 267px;
+}
+
+.block-of-info_repair-cost {
+    position: absolute;
+    width: 218px;
+    height: 22px;
+    flex-shrink: 0;
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; /* 24.948px */
+    text-transform: uppercase;
+    top: 235px;
+    left: 190px;
+}
+
+.block-of-info_repair-cost-value {
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163.68%; /* 21.278px */
+    top: 267px;
+    left: 190px;
+}
+
+.main_slider-nav {
+    position: absolute;
+    width: 252px;
+    height: 431.276px;
+    flex-shrink: 0;
+    left: 1px;
+    right: 918px;
+    top: 121px;
+}
+
+.main_slider-nav svg {
+    position: absolute;
+    width: 205.683px;
+    height: 13.276px;
+    flex-shrink: 0;
+    top: 418px;
+    right: 46.3px;
+}
+
+.svg-1 {
+    height: 14px;
+    cursor: pointer;
+    border: 2px solid wheat;
+}
+
+.slider-nav_prev-slide-button {
+    position: absolute;
+    width: 60px;
+    height: 28px;
+    top: 410px;
+    left: -10px;
+}
+
+.slider-nav_next-slide-button {
+    position: absolute;
+    width: 60px;
+    height: 28px;
+    top: 410px;
+    left: 145px;
+}
+
+.slider-nav_1-slide-button {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 410px;
+    left: 55px;
+}
+
+.slider-nav_2-slide-button {
+    position: absolute;
+    width: 23px;
+    height: 28px;
+    top: 410px;
+    left: 86px;
+}
+
+.slider-nav_3-slide-button {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 410px;
+    left: 113px;
+}
+
+#cursor-pointer {
+    cursor: pointer;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none; 
+}
+
+#nav-round-1 {
+    fill-opacity: 1;
+}
